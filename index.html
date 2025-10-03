@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>電波人間検索</title>
+</head>
+<body>
+    <h1>電波人間 簡易検索</h1>
+    
+    <form id="search-form">
+        <label for="rsid">RSID:</label>
+        <input type="text" id="rsid" name="rsid"><br>
+
+        <label for="skill_group">アンテナ:</label>
+        <select id="skill_group" name="skill_group">
+            </select><br>
+        
+        <button type="submit">検索実行</button>
+    </form>
+
+    <div id="results-count"></div>
+    <div id="results-area">
+        </div>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>
